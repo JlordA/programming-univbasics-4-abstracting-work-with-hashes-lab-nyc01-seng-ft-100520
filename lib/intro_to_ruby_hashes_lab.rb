@@ -1,7 +1,7 @@
 def my_hash_creator(key, value)
-  hash = Hash.new
-  hash[:key] = value
-  hash
+  hash_creator = Hash.new
+  hash_creator[:key] = value
+  hash_creator
 end
 
 def read_from_hash(hash, key)
